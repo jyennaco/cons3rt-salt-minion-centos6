@@ -1,0 +1,33 @@
+<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+		<h1>
+			Salt Minion on CentOS6 using EPEL and YUM</h1>
+		<div>
+This software asset installs the Salt Minion on CentOS6 using EPEL and YUM.  For CONS3RT deployments, this install script looks for either a Scenario role name or a Deployment runtime propety with the name "salt-master".  If salt-master is found, the script automatically installs Salt Minion to point to the salt-master.  Otherwise, this script installs Salt Minion but does not automatically start it.  Note: If salt-master is defined as both a Scenario Role Name and a Deployment Runtime Property, the Scenario Role Name will be used.</div>
+		<h2>
+			Overview</h2>
+		<div>
+			<p>
+				Salt is a new approach to infrastructure management. Easy enough to get running in minutes, scalable enough to manage tens of thousands of servers, and fast enough to communicate with them in <em>seconds</em>.&nbsp; Salt delivers a dynamic communication bus for infrastructures that can be used for orchestration, remote execution, configuration management and much more.</p>
+		</div>
+		<h2>
+			Prerequisites</h2>
+		<ul>
+			<li>
+				For automatic installation, either define a Scenario Role Name of salt-master, or a Deployment Runtime Property of salt-master.</li>
+		</ul>
+		<h2>
+			References</h2>
+		<ul>
+			<li>
+				http://docs.saltstack.com/</li>
+			<li>
+				https://github.com/saltstack/salt</li>
+			<li>
+				http://docs.saltstack.com/topics/installation/windows.html</li>
+		</ul>
+	</body>
+</html>
